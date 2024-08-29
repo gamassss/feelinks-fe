@@ -1,7 +1,7 @@
 "use client"
 
 import { CalendarIcon, DashboardIcon, GearIcon, TokensIcon } from "@radix-ui/react-icons";
-import SidebarItem from "./atoms/SidebarItem";
+import SidebarItem from "../atoms/SidebarItem";
 
 export default function Sidebar() {
   return (
