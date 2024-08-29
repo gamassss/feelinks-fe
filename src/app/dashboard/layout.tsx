@@ -1,4 +1,5 @@
 import Sidebar from "@/components/Sidebar";
+import Head from "next/head";
 
 export default function DashboardLayout({
   children,
@@ -6,11 +7,12 @@ export default function DashboardLayout({
   children: React.ReactNode;
 }) {
   return (
-    <section className="flex items-start justify-between">
-      <Sidebar />
+    <>
+      <section className="flex items-start justify-between">
+        <Sidebar />
 
-      <main className="w-full h-full">{children}</main>
-
-    </section>
+        <main className="w-full h-full">{children}</main>
+      </section>
+    </>
   );
 }
