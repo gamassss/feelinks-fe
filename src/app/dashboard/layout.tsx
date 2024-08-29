@@ -1,5 +1,4 @@
 import Sidebar from "@/components/fragments/Sidebar";
-import Head from "next/head";
 
 export default function DashboardLayout({
   children,
@@ -8,7 +7,7 @@ export default function DashboardLayout({
 }) {
   return (
     <>
-      <section className="flex items-start justify-between">
+      <section className="flex items-start justify-between container">
         <Sidebar />
 
         <main className="w-full h-full">{children}</main>
