@@ -4,5 +4,5 @@ const words = `"In the rush of daily life, journaling allows us to pause, reflec
 
 
 export const TextGenerate: React.FC = () => {
-  return <TextGenerateEffect words={words} className="text-center text-red-300" />;
+  return <TextGenerateEffect words={words} className="text-center text-red-300 container" />;
 };
