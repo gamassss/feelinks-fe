@@ -8,10 +8,10 @@ interface JournalFormProps {
   height?: string;
 }
 
-export default function JournalForm({ handleSubmit, height = '320px'  }: JournalFormProps) {
+const JournalForm: React.FC<JournalFormProps> = ({ handleSubmit, height = '320px' }) => {
   return (
     <form onSubmit={handleSubmit}>
-      <TextArea height={height}placeholder="Write your thoughts here..." />
+      <TextArea height={height} placeholder="Write your thoughts here..." />
       <div className="flex justify-between items-center mb-8">
         <div className="flex items-center">
           <Button variant="outline">
@@ -30,4 +30,6 @@ export default function JournalForm({ handleSubmit, height = '320px'  }: Journal
       </div>
     </form>
   );
-}
+};
+
+export default JournalForm;

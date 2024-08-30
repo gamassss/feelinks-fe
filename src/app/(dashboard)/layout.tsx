@@ -20,7 +20,6 @@ export default function DashboardLayout({
       <body className={`${inter.className}`}>
         <section className="flex items-start justify-between container">
           <Sidebar />
-
           <main className="w-full h-full">{children}</main>
         </section>
       </body>
