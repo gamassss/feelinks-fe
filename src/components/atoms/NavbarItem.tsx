@@ -7,7 +7,7 @@ export type NavbarItemProps = {
 
 const NavbarItem = React.memo(function NavbarItem({ href, label }: NavbarItemProps) {
   return (
-    <Link href={href} className="hover:underline text-slate-300" passHref>
+    <Link href={href} className="text-slate-400 hover:text-slate-200 hover:underline" passHref>
       {label}
     </Link>
   );

@@ -1,6 +1,6 @@
 "use client";
 
-import JournalForm from "@/components/fragments/JournalForm";
+import JournalForm from "@/components/molecules/JournalForm";
 import { Inter_Tight } from "next/font/google";
 
 const inter_tight = Inter_Tight({ subsets: ["latin"] });

@@ -1,7 +1,7 @@
 "use client";
 
-import FeatureSection from "@/components/fragments/FeatureSection";
-import HeroSection from "@/components/fragments/HeroSection";
+import FeatureSection from "@/components/organisms/FeatureSection";
+import HeroSection from "@/components/organisms/HeroSection";
 
 export default function Home() {
   return (
