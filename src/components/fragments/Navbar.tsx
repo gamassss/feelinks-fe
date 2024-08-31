@@ -13,7 +13,7 @@ interface NavbarProps {
 
 const Navbar: React.FC<NavbarProps> = ({ children }) => {
   return (
-    <nav className="fixed inset-x-0 top-0 z-50 bg-black/70 py-4 px-32 backdrop-blur-sm text-white">
+    <nav className="fixed inset-x-0 top-0 z-50 bg-black/60 py-4 px-32 backdrop-blur-sm text-white">
       <div className="mx-auto flex items-center justify-between">
         <div className="flex items-center gap-x-8 text-sm font-semibold">
           {children}
