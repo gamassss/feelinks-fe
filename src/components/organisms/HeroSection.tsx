@@ -11,7 +11,7 @@ const HeroSection: React.FC = () => {
 
   return (
     <div className="flex mb-16 xl:min-h-screen container">
-      <div className="flex flex-col text-2xl md:text-4xl lg:text-5xl font-bold text-neutral-700 dark:text-white max-w-4xl leading-relaxed lg:leading-snug text-center mx-auto">
+      <div className="flex flex-col text-2xl md:text-4xl lg:text-5xl font-bold text-neutral-700 dark:text-white max-w-5xl leading-relaxed lg:leading-snug text-center mx-auto">
         <div className="mb-4">
           <Highlight
             className={`text-black dark:text-white ${inter_tight.className}`}
@@ -20,7 +20,7 @@ const HeroSection: React.FC = () => {
           </Highlight>{" "}
           your emotions effortlessly with Simple AI Analysis.
         </div>
-        <div className="md:px-16 mb-4">
+        <div className="md:px-16 mb-4 md:mb-8">
           <p className="text-slate-600 dark:text-slate-400 text-base lg:text-2xl font-normal">
             Enhance your journaling journey with personalized emotion analysis
             from every entry. Reflect deeper, understand better.

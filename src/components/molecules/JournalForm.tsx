@@ -8,14 +8,17 @@ interface JournalFormProps {
   height?: string;
 }
 
-const JournalForm: React.FC<JournalFormProps> = ({ handleSubmit, height = '320px' }) => {
+const JournalForm: React.FC<JournalFormProps> = ({
+  handleSubmit,
+  height = "320px",
+}) => {
   return (
     <form onSubmit={handleSubmit}>
       <TextArea height={height} placeholder="Write your thoughts here..." />
       <div className="flex justify-between items-center mb-8">
         <div className="flex items-center">
           <Button variant="outline">
-            <UploadIcon className="mr-2 h-4 w-4" /> Upload
+            <UploadIcon className="mr-2 h-4 hidden md:block md:w-4" /> Upload
           </Button>
         </div>
         <div className="flex items-center gap-x-2">

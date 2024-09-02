@@ -41,7 +41,7 @@ export const features = [
 
 const FeatureSection: React.FC = () => {
   return(
-    <section className="mb-24 text-2xl md:text-4xl lg:text-5xl font-bold text-neutral-700 dark:text-white max-w-4xl leading-relaxed lg:leading-snug text-center mx-auto">
+    <section className="container mb-24 text-2xl md:text-4xl lg:text-5xl font-bold text-neutral-700 max-w-6xl dark:text-white leading-relaxed lg:leading-snug text-center">
       <h1 className="text-center">Our Features</h1>
       <CardHoverEffect items={features}/>
     </section>
